@@ -3,7 +3,7 @@ class CoursesController < ApplicationController
   before_action :set_course, only: [:show, :destroy]
 
   def index
-    @course = Course.all
+    @courses = Course.all
   end
 
   def show
